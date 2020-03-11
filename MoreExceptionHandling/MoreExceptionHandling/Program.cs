@@ -28,17 +28,17 @@ namespace MoreExceptionHandling
             }
             catch (ZeroException)
             {
-                Console.WriteLine("Infants can't use computers! Please enter a valid age.");
+                Console.WriteLine("Oops! Infants can't use computers!");
                 Console.ReadLine();
             }
             catch (NegException)
             {
-                Console.WriteLine("You can't live negative years! Please enter a valid age, greater than 0.");
+                Console.WriteLine("Oops! You can't be negative years old!");
                 Console.ReadLine();
             }
             catch (FormatException)
             {
-                Console.WriteLine("Oops! Enter your age as an integer please.");
+                Console.WriteLine("Oops! You didn't enter your age as an integer.");
                 Console.ReadLine();
             }
             catch (Exception)
